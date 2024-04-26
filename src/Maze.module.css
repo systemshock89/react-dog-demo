@@ -1,0 +1,28 @@
+/* src/Maze.module.css */
+.maze {
+    border: 1px solid brown;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+        background-color: #f0f0f0;
+    }
+}
+
+.wall {
+    background-color: black;
+    height: 2px;
+    position: relative;
+}
