@@ -3,7 +3,6 @@
     border: 1px solid brown;
     display: flex;
     flex-direction: column;
-    background-color: red;
 }
 
 .button {
